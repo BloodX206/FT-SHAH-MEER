@@ -51,7 +51,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/y1mgrl.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Apni Had May Raho Batmeez Insan 🫣",
 // add alive msg here 
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
