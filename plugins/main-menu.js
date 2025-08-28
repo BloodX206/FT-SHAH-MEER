@@ -344,7 +344,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/y1mgrl.jpg' },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -362,7 +362,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/waqa827/E3_HACKER-MD/blob/main/assets/menu.mp3' },
+            audio: { url: 'https://github.com/BloodX/FT-SHAH-MEER-MD/blob/main/assets/menu.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
