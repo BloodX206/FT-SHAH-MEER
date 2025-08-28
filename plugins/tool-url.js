@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> © Uploaded by E3_HACKER_𝐌𝐃 ❤️`
+      `> © Uploaded by FT-SHAH-MEER❤️`
     );
 
   } catch (error) {
