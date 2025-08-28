@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for E3_HACKER_𝐌𝐃 Bot",
+    desc: "Get pairing code for FT-SHAH-MEER Bot",
     category: "download",
-    use: ".pair +923237045919",
+    use: ".pair +923073660479",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -27,7 +27,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *E3_HACKER_𝐌𝐃 PAIRING COMPLETED*";
+        const doneMessage = "> *FT-SHAH-MEER PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
@@ -49,9 +49,9 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
-    desc: "Get pairing code for E3_HACKER_𝐌𝐃 bot",
+    desc: "Get pairing code for FT-SHAH-MEER bot",
     category: "download",
-    use: ".pair +923237045919",
+    use: ".pair 923073660479",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -60,7 +60,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +923237045919");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +923073660479");
         }
 
         // Make API request to get pairing code
@@ -71,7 +71,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *E3_HACKER_𝐌𝐃 PAIRING COMPLETED*";
+        const doneMessage = "> *FT-SHAH-MEER PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
